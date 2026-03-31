@@ -82,6 +82,7 @@ const goToLogin = () => {
 /* 保留一些可被页面复用的样式 */
 .center-box {
   text-align: center;
+  animation: fadeIn 0.5s ease;
 }
 
 .title {
@@ -112,5 +113,15 @@ const goToLogin = () => {
 .start-btn:hover {
   background: #f8f9fa;
   transform: translateY(-2px);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>

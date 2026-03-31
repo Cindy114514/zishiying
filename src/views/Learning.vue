@@ -69,6 +69,8 @@ const handleClick = (name: string) => {
   padding: 8px;
   background: white;
   border-radius: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+
 }
 
 .subjects button {
