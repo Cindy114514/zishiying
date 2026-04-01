@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <div class="login-box" role="main" aria-labelledby="login-title">
-      <h2 id="login-title">COCO 自适应学习</h2>
+      <h2 id="login-title">COCO</h2>
 
       <section v-if="!isRegister" class="login-form" aria-label="登录表单">
         <h3>登录</h3>
